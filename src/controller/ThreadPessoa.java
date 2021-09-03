@@ -28,6 +28,7 @@ public class ThreadPessoa extends Thread{
 				e.printStackTrace();
 			}			
 		}
+		System.err.println("A pessoa #"+id+" chegou na porta");
 		passarPelaPorta();
 	}
 	
